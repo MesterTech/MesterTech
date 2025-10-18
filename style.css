@@ -5,7 +5,7 @@
       overflow-x: hidden;
   }
 
-  /* 🧭 Navbar */
+ 
   .custom-navbar {
       background: rgba(0, 0, 80, 0.85);
       transition: background-color 0.5s ease, box-shadow 0.5s ease;
@@ -23,19 +23,19 @@
       transition: all 0.3s ease;
   }
 
-  /* عند فتح القائمة نضيف له تأثير خاص */
+ 
   .toggle-icon.active {
       color: #ffc107;
-      /* ذهبي عند الفتح */
-      /* opacity: 0.6; */
-      /* خطوط باهتة قليلاً */
+      
+    
+     
       transform: rotate(90deg);
-      /* دوران خفيف أنيق */
+    
   }
 
-  /* روابط النافبار */
+
   .custom-navbar .nav-link {
-      /* color: rgba(0, 0, 50, 0.5) !important; */
+     
       color: #f8f9fa !important;
       font-weight: 500;
       transition: 0.3s;
@@ -46,11 +46,11 @@
       color: #ffc107 !important;
   }
 
-  /* الجوال */
+ 
   @media (max-width: 991px) {
       .custom-navbar .navbar-collapse {
           background: rgba(10, 20, 50, 0.85);
-          /* خلفية شفافة كحلية */
+       
           border: 1px solid rgba(255, 255, 255, 0.1);
           backdrop-filter: blur(12px);
           -webkit-backdrop-filter: blur(12px);
@@ -61,7 +61,7 @@
           transition: all 0.4s ease;
       }
 
-      /* تعديل شكل الروابط */
+    
       .custom-navbar .nav-link {
           color: #f8f9fa !important;
           font-weight: 500;
@@ -71,10 +71,10 @@
 
       .custom-navbar .nav-link:hover {
           color: #ffc107 !important;
-          /* لون ذهبي عند التمرير */
+      
       }
 
-      /* لإضافة فاصل خفيف بين العناصر */
+    
       .custom-navbar .nav-item {
           border-bottom: 1px solid rgba(255, 255, 255, 0.08);
           margin: 5px 0;
@@ -108,12 +108,12 @@
       }
   }
 
-  /* للجوالات */
+ 
   @media (max-width: 576px) {
       .sec-mine {
           background-position: center;
           background-attachment: scroll;
-          /* لتسريع التحميل في الهواتف */
+       
           min-height: 80vh;
           padding: 40px 15px;
       }
@@ -146,7 +146,7 @@
       font-size: 1.5rem;
   }
 
-  /* 💎 خدماتنا */
+
   .services {
       padding: 80px 0;
       background-color: #f8f9fa;
@@ -170,7 +170,7 @@
       margin-bottom: 20px;
   }
 
-  /* 🧑‍💼 من نحن */
+
   .about {
       padding: 80px 0;
       background-color: #fff;
@@ -182,7 +182,7 @@
       margin-bottom: 30px;
   }
 
-  /* ✨ ما يميزنا */
+  
   .features {
       padding: 60px 0;
       background-color: #f8f9fa;
@@ -197,7 +197,7 @@
       color: #000080;
   }
 
-  /* ⚫ الفوتر */
+
   footer {
       background-color: #000080;
       color: white;
@@ -269,12 +269,13 @@
 
   .navbar-toggler {
       border: none !important;
-      /* لإزالة الإطار */
+    
       outline: none !important;
-      /* لإزالة الخط عند التركيز */
+      
       box-shadow: none !important;
-      /* لإزالة الظل */
+  
 
   }
+
 
 
