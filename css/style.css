@@ -20,6 +20,7 @@
 
   /* روابط النافبار */
   .custom-navbar .nav-link {
+      /* color: rgba(0, 0, 50, 0.5) !important; */
       color: #f8f9fa !important;
       font-weight: 500;
       transition: 0.3s;
@@ -33,7 +34,9 @@
   /* الجوال */
   @media (max-width: 991px) {
       .custom-navbar .navbar-collapse {
-          background-color: rgba(0, 0, 50, 0.95);
+          border: #f8f9fa 1px solid;
+          background-color: rgb(12, 25, 57);
+          /* background-color: white; */
           border-radius: 10px;
           padding: 20px;
           margin-top: 10px;
@@ -42,7 +45,7 @@
 
   /* 🌆 واجهة البداية */
   .sec-mine {
-      background: url("/assets/dark-blue-gradient-background.jpg") center/cover no-repeat;
+      background: url("/assets/darkBlueGradientBackground.svg") center/cover no-repeat;
       min-height: 100vh;
       display: flex;
       justify-content: center;
